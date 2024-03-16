@@ -16,5 +16,49 @@
         <button type="submit">Pesquisar</button>
         </form>
     </div>   
-</body>
+    <div class="register-form">
+        <form action="">
+            <label for="">Campo de texto</label>
+            <input type="text" maxlength="5" >
+            <label for="">Campo de numero</label>
+            <input type="number">
+            <label for="">Campo de email</label>
+            <input type="email" >
+            <label for="">Campo de senha</label>
+            <input type="password">
+            <label for="">Campo de data</label>
+            <input type="date">
+            <label for="">Campo de upload</label>
+            <input type="file" >
+            <label for="">Área de texto</label>
+            <textarea maxlength="5" minlength="3" ></textarea>
+            <label for="">Selecione uma opiçao</label>
+            <select name="select">
+                <option value="">Selecione uma opiçao</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+            </select>
+            <h4>Selecione mais de uma opiçao</h4>
+            <div class="input-inline">
+                <input type="checkbox" name="check1" value="html" id="item-html" required>
+                <label for="item-html"> HTML</label>
+                <input type="checkbox" name="check2" value="css" id="item-css">
+                <label for="item-css"> CSS</label>
+                <input type="checkbox" name="check3" value="Javascript" id="item-javascript">
+                <label for="item-javascript"> Javascript</label>
+            </div>
+            <h4>Selecione apenas uma opiçao</h4>
+            <div class="input-inline">
+                <input type="radio" name="radio" value="html" id="radio-html">
+                <label for="radio-html"> HTML</label>
+                <input type="radio" name="radio" value="css" id="radio-css">
+                <label for="radio-css"> CSS</label>
+                <input type="radio" name="radio" value="Javascript" id="radio-javascript">
+                <label for="radio-javascript"> Javascript</label>
+            </div>
+            <br>
+            <button>Enviar</button>
+        </div>
+    </body>
 </html>
